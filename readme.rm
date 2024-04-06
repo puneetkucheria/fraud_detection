@@ -1,0 +1,36 @@
+confussion matrix
+[[999427     19]
+ [     0    554]]
+
+
+Accuracy of Random Forest: 99.9981 
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    999446
+           1       0.97      1.00      0.98       554
+
+    accuracy                           1.00   1000000
+   macro avg       0.98      1.00      0.99   1000000
+weighted avg       1.00      1.00      1.00   1000000
+
+Fraud
+
+{
+  "step": 73,
+  "amount": 339682.13,
+  "oldbalanceOrg": 339682.13,
+  "newbalanceOrig": 0.0,
+  "oldbalanceDest": 0.0,
+  "newbalanceDest": 339682.13,
+  "isFlaggedFraud": 0,
+  "type_CASH_OUT": 0,
+  "type_DEBIT": 0,
+  "type_NOTYPE": 0,
+  "type_PAYMENT": 0,
+  "type_TRANSFER": 1
+}
+
+
+Not Fraud
+
